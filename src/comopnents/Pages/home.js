@@ -17,9 +17,9 @@ function home() {
             <div className="container">
       <div className="row">
       <div className="col-md-8">
-          <p>Hi There I am</p>
-                <h1>Nahid Hasan</h1>
-                <h2>&</h2>
+          <p className="font">Hi There I am</p>
+                <h1 className="for-font">Nahid Hasan</h1>
+                <h2 className="for-font">&</h2>
                 <Typical
                     steps={['I am', 1000, 'Developer!', 1000,'Engineer!', 1000,'Cricketer!', 1000]}
                     loop={Infinity}
