@@ -6,18 +6,6 @@ function resumeHome() {
         <div className="resume-top" style={{paddingTop:"5%"}}>
              <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"160px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>About me</h2>
             <div className="container">
-                {/* <div className="row">
-                    <div className="col-md-6">
-                        <img style={{width:"65%",margin:"20%",border:"5px solid #c7c5c1",borderRadius:"1%"}} src={ResumeImg} alt="resume img"/>
-                    </div>
-                    <div className="col-md-6">
-
-                    </div>
-                </div> */}
-
-
-
-
 <div className="row">
             <div className="col-md-6 ">
             <motion.div
@@ -25,7 +13,7 @@ function resumeHome() {
            transition={{ duration: 1 }}
             >
                
-                    <img className="resume-cover" style={{height:"400px", marginTop:"15%",border:"5px solid #95e9f0",borderRadius:"1%"}} src={ResumeImg}/>
+                    <img className="resume-cover" style={{height:"400px", marginTop:"15%",border:"5px solid #95e9f0",borderRadius:"1%"}} src={ResumeImg} alt="resume img"/>
                 
          </motion.div>
          </div>
