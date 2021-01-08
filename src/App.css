@@ -271,7 +271,7 @@ transition: 1s;
     padding-top: 15%;
   }
   .resume-top{
-    padding-top: 15%;
+    padding-top: 15% !important;
   }
 }
 

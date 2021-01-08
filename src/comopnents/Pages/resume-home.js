@@ -3,7 +3,7 @@ import ResumeImg from '../../comopnents/images/resume-img.jpg';
 import { motion } from "framer-motion"
 function resumeHome() {
     return (
-        <div className="resume-top">
+        <div className="resume-top" style={{paddingTop:"5%"}}>
              <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"160px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>About me</h2>
             <div className="container">
                 {/* <div className="row">
