@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.{
+  background:red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,6 +25,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.for-font{
+  font-family: 'Open Sans', sans-serif;
+
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +42,245 @@
     transform: rotate(360deg);
   }
 }
+
+.logo{
+  height:22px;
+
+}
+.cover{
+  /* background:rgb(110, 209, 255); */
+  background: rgb(122,205,245);
+  background: linear-gradient(135deg, rgba(122,205,245,1) 24%, rgba(201,214,217,1) 60%, rgba(166,245,251,1) 91%);
+  background-size:cover;
+  width:100%;
+  padding-top:5%;
+}
+.navbar{
+  background: rgb(30,23,34);
+  background: linear-gradient(90deg, rgba(30,23,34,1) 14%, rgba(28,156,193,1) 85%, rgba(7,123,124,1) 97%);
+box-shadow: 0px 9px 11px -2px rgba(0,0,0,0.35);
+z-index:9999 !important;
+overflow: hidden !important;
+position: fixed !important; 
+
+top: 0;
+width: 100%;
+}
+.icon:hover{
+  color:rgb(0, 204, 255) !important;
+background:black !important;
+transition: 1s;
+}
+.icon{
+  cursor:pointer !important;
+}
+.navLink:hover{
+  border-bottom: 1px solid blue;
+  text-decoration:none;
+}
+.resume-cover{
+  -webkit-box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.75); 
+  box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.75);
+}
+.subtitle{
+  color: rgb(0, 189, 202);
+}
+.title{
+  color:rgb(255, 255, 255);
+}
+.title:hover{
+ 
+}
+.card{
+  margin-top: 7%;
+}
+
+
+.card-body:hover{
+  background-color:#037d99!important;
+  color:rgb(255, 255, 255) !important;
+  cursor:pointer;
+  transition:1s;
+}
+.carosel-img{
+  height:100px !important;
+  width:100px !important;
+  border:4px solid black !important;
+  border-radius: 50% !important;
+  margin: auto auto;
+  margin-top: 20px;
+}
+.carosel-div{
+  height:100px !important;
+  width:100px !important;
+  margin: auto auto;
+ 
+}
+.carosel-img:hover{
+  border:4px solid green !important;
+  transition:.5s;
+}
+.carisel-body:hover{
+  border:4px solid green !important;
+}
+.map{
+  height:20% !important;
+  width:100% !important;
+  background-position:fixed !important;
+}
+.footer-container{
+  background:rgba(0, 0, 0, 0.911);
+  width:100%;
+  color:rgb(190, 186, 186);
+  padding: 30px;;
+}
+.footer-box{
+  padding-left: 10% !important;
+  padding-top: 20px;
+}
+.footer-box form input{
+  padding:10px !important;
+  width:280px;
+  color:rgb(46, 39, 39);
+}
+.footer-h3{
+  color:white;
+}
+
+.tags {
+	text-align: center;
+	padding: 20px 0px;
+  background-color: #095f9c;
+  margin: auto auto;
+  margin-top: 1%;
+  width:70%;
+  margin-bottom: 1%;
+  -webkit-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.85); 
+  box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.85);
+  background: rgb(9,37,42);
+  background: linear-gradient(135deg, rgba(9,37,42,1) 9%, rgba(11,103,126,1) 46%, rgba(0,176,222,1) 91%);
+ 
+}
+.resume{
+  padding-top: 5%;
+}
+
+.tag {
+	outline: none;
+	border: none;
+	color: #eee;
+	margin: 0px 10px;
+	background-color: transparent;
+  cursor: pointer;
+
+}
+
+.active {
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+.container-protfollio {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.image-card {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.image {
+  width: 100%;
+
+}
+.image:hover{
+  opacity: .8;
+
+}
+.form-control{
+  border: 2px solid rgb(96, 156, 206) !important
+}
+
+/* The animation code */
+@keyframes cover-profile {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:18px; top:0px;}
+  50%  {background-color:transparent;left:18px; top:18px;}
+  75%  {background-color:transparent;left:0px; top:18px;}
+  100% {background-color:transparent;left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+.extra-animation {
+  position: relative;
+  animation-name: cover-profile;
+  animation-duration: 5s;
+}
+
+@keyframes text-animation {
+  0%   { left:100px; top:100px;}
+  100% { left:0px; top:0px;}
+}
+
+.text-animation{
+  animation-name: text-animation;
+  animation-duration: 1s;
+  transition: 5s;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .carosel-body {
+    height: 350px!important;
+  }
+  .top-input{
+    margin-top:40% !important;
+  }
+  .img_cover{
+    height: 99%!important;
+    margin: auto auto;
+   padding-top: 5% !important;
+  }
+  .cover-logo{
+    width:200px;
+  }
+  .cover-logo{
+    padding-top:10%;
+  }
+  .image_cover{
+   padding-top: -15% !important;
+  }
+  .resume{
+    padding-top:25% !important;
+  }
+  .contact{
+    padding-top:25% !important;
+  }
+  .top-input{
+    margin-top:55% !important;
+  }
+}
+
+.contact{
+  background: linear-gradient(90deg, rgba(219,244,251,1) 0%, rgba(238,255,255,1) 50%, rgba(227,253,255,1) 100%);
+padding-top:5%;
+}
+.img-g{
+  transition: transform 1.5s;
+}
+
+.img-g:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  z-index:1000000 !important;
+}
+
+
+
+
+
