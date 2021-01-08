@@ -271,6 +271,9 @@ transition: 1s;
   .resume-top{
     padding-top: 15% !important;
   }
+  .home{
+    padding-top:15% !important;
+  }
 }
 
 .contact{

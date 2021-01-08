@@ -12,7 +12,7 @@ function home() {
 
     return (
         
-        <div style={{padding:"10%",background: "rgb(191,222,230)",
+        <div className="home" style={{padding:"10%",background: "rgb(191,222,230)",
         background: "linear-gradient(90deg, rgba(219,244,251,1) 0%, rgba(238,255,255,1) 50%, rgba(227,253,255,1) 100%)"}}>
             <div className="container">
       <div className="row">
