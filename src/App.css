@@ -267,6 +267,12 @@ transition: 1s;
   .resume-cover{
     width:300px;
   }
+  .gallary{
+    padding-top: 15%;
+  }
+  .resume-top{
+    padding-top: 15%;
+  }
 }
 
 .contact{

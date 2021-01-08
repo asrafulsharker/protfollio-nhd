@@ -58,7 +58,7 @@ const  ContactUs=()=> {
                     </div>
                     <div>
                         <h4>Address</h4>
-                        <p>Munshiganj sadar, Munshiganj (Bangladesh)
+                        <p>Munshiganj sadar, Munshiganj 
 
 </p>
                     </div>
