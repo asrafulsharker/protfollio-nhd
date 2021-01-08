@@ -262,7 +262,10 @@ transition: 1s;
     padding-top:25% !important;
   }
   .top-input{
-    margin-top:55% !important;
+    margin-top:75% !important;
+  }
+  .resume-cover{
+    width:300px;
   }
 }
 

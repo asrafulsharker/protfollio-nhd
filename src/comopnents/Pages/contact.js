@@ -28,7 +28,6 @@ const  ContactUs=()=> {
                     
                     
             <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"130px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Contact</h2>
-                <GoogleApiWrapper/>
 
 
             <form style={{margin:"20px"}} onSubmit={sendEmail}>
