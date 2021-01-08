@@ -236,9 +236,7 @@ transition: 1s;
   .carosel-body {
     height: 350px!important;
   }
-  .top-input{
-    margin-top:40% !important;
-  }
+
   .img_cover{
     height: 99%!important;
     margin: auto auto;
@@ -260,7 +258,7 @@ transition: 1s;
     padding-top:25% !important;
   }
   .top-input{
-    margin-top:75% !important;
+    margin-top:5% !important;
   }
   .resume-cover{
     width:300px;
@@ -298,4 +296,6 @@ padding-top:5%;
 .font{
   font-family: 'Abril Fatface', cursive;
 }
-
+.top-input{
+  padding-top: 5% ;
+}
