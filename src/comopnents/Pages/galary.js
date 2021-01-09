@@ -7,7 +7,7 @@ import img5 from '../../comopnents/images/nahid5.jpg';
 function galary() {
     return (
         <div className="gallary" style={{ background: "linear-gradient(90deg, rgba(219,244,251,1) 0%, rgba(238,255,255,1) 50%, rgba(227,253,255,1) 100%)"}}>
-                             <h2 style={{borderBottom:"4px solid #2cd0f5",width:"120px",margin:"auto auto",marginTop:"4%",textAlign:"center"}}>Gallery</h2>
+                             <h2 style={{borderBottom:"4px solid #2cd0f5",width:"120px",margin:"auto auto",paddingTop:"4%",textAlign:"center"}}>Gallery</h2>
 
             <div className="container" style={{padding:"2%"}}>
                 <div className="row">
